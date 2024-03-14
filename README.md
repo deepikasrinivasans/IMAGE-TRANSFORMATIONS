@@ -37,11 +37,17 @@ Define a region of interest by specifying the desired range of rows and columns 
 
 
 ## Program:
+```
 
 #### Developed By: DEEPIKA S
 #### Register Number: 212222230028
-### i)Image Translation
 ```
+<table>
+  <tr>
+   <td width=50%>
+     
+### i)Image Translation
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -58,8 +64,22 @@ plt.axis('off')
 plt.imshow(translated_image)
 plt.show()
 ```
+</td>
+<td>
+  
+### Output:
+### i)Image Translation
+![1](https://github.com/deepikasrinivasans/IMAGE-TRANSFORMATIONS/assets/119393935/a28e4c6f-3da3-48a0-9a37-53b04c37de11)
+</td>
+</tr>
+
+
+
+<tr>
+  <td width=50%>
+  
 ### ii) Image Scaling
-```
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -76,8 +96,22 @@ scaled_img=cv2.warpPerspective (input_image, M, (cols*2, rows*2))
 plt.imshow(scaled_img)
 plt.show()
 ```
+</td>
+<td>
+  
+### Output:
+### ii) Image Scaling
+![2](https://github.com/deepikasrinivasans/IMAGE-TRANSFORMATIONS/assets/119393935/f0b45940-2560-4a44-9b26-588dcf9750d1)
+</td>
+</tr>
+
+
+
+<tr>
+  <td width=50%>
+
 ### iii)Image shearing
-```
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -99,8 +133,22 @@ plt.show()
 plt.imshow(sheared_img_yaxis)
 plt.show()
 ```
+</td>
+<td>
+  
+### Output:
+### iii)Image shearing
+![3](https://github.com/deepikasrinivasans/IMAGE-TRANSFORMATIONS/assets/119393935/90dcce42-54b6-4cb2-a48c-731b82d307a0)
+</td>
+</tr>
+
+
+
+<tr>
+  <td width=50%>
+
 ### iv)Image Reflection
-```
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -123,8 +171,22 @@ plt.show()
 plt.imshow(reflected_img_yaxis)
 plt.show()
 ```
-### v)Image Rotation
-```
+</td>
+<td>
+
+### Output:
+### iv)Image Reflection
+![4](https://github.com/deepikasrinivasans/IMAGE-TRANSFORMATIONS/assets/119393935/d938dfd2-b980-4a6a-be3b-c1dbd90a83a4)
+</td>
+</tr>
+
+
+
+<tr>
+ <td width=50%>
+
+   ### v)Image Rotation
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -141,8 +203,22 @@ rotated_img = cv2.warpPerspective(input_image,M,(int(cols),int(rows)))
 plt.imshow(rotated_img)
 plt.show()
 ```
+</td>
+<td>
+  
+### Output:
+### v)Image Rotation
+![5](https://github.com/deepikasrinivasans/IMAGE-TRANSFORMATIONS/assets/119393935/dea3a326-bcc8-454b-9559-2d75c0b81ceb)
+</td>
+</tr>
+
+
+
+<tr>
+ <td width=50%>
+
 ### vi)Image Cropping
-```
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -157,52 +233,16 @@ cropped_img= input_image[100:300,100:300]
 plt.imshow(cropped_img)
 plt.show()
 ```
-## Output:
-### i)Image Translation
-<br>
-<br>
-<br>
-<br>
-
-### ii) Image Scaling
-<br>
-<br>
-<br>
-<br>
-
-
-### iii)Image shearing
-<br>
-<br>
-<br>
-<br>
-
-
-### iv)Image Reflection
-<br>
-<br>
-<br>
-<br>
-
-
-
-### v)Image Rotation
-<br>
-<br>
-<br>
-<br>
-
-
-
+</td>
+<td>
+  
+### Output:
 ### vi)Image Cropping
-<br>
-<br>
-<br>
-<br>
+![6](https://github.com/deepikasrinivasans/IMAGE-TRANSFORMATIONS/assets/119393935/c37a135e-61f9-4c1e-acdc-bab53e8fadbe)
+</td>
+</tr>
+</table>
 
-
-
-
-## Result: 
+### Result: 
 
 Thus the different image transformations such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping are done using OpenCV and python programming.
