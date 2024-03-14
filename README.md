@@ -13,26 +13,38 @@ Import necessary libraries (NumPy, OpenCV, Matplotlib).
 <br>
 
 ### Step2:
-Read an image, convert it to RGB format, and display it using Matplotlib.Define translation parameters (e.g., shifting by 100 pixels horizontally and 200 pixels vertically).Perform translation using cv2.warpAffine().Display the translated image using Matplotlib.
+Read an image, convert it to RGB format, and display it using Matplotlib.Define translation parameters 
+(e.g., shifting by 100 pixels horizontally and 200 pixels vertically).Perform translation using cv2.warpAffine().
+Display the translated image using Matplotlib.
 <br>
 
 ### Step3:
-Obtain the dimensions (rows, cols, dim) of the input image.Define a scaling matrix M with scaling factors of 1.5 in the x-direction and 1.8 in the y-direction.Perform perspective transformation using cv2.warpPerspective(), scaling the image by a factor of 1.5 in the x-direction and 1.8 in the y-direction.Display the scaled image using Matplotlib.
+Obtain the dimensions (rows, cols, dim) of the input image.
+Define a scaling matrix M with scaling factors of 1.5 in the x-direction and 1.8 in the y-direction
+.Perform perspective transformation using cv2.warpPerspective(), scaling the image by a factor of 1.5 in the x-direction and 1.8 in the y-direction.
+Display the scaled image using Matplotlib.
 <br>
 
 ### Step4:
-Define shear matrices M_x and M_y for shearing along the x-axis and y-axis, respectively.Perform perspective transformation using cv2.warpPerspective() with the shear matrices to shear the image along the x-axis and y-axis.Display the sheared images along the x-axis and y-axis using Matplotlib.
+Define shear matrices M_x and M_y for shearing along the x-axis and y-axis, respectively.
+Perform perspective transformation using cv2.warpPerspective() with the shear matrices to shear the image along the x-axis and y-axis.
+Display the sheared images along the x-axis and y-axis using Matplotlib.
 <br>
 
 ### Step5:
-Define reflection matrices M_x and M_y for reflection along the x-axis and y-axis, respectively.Perform perspective transformation using cv2.warpPerspective() with the reflection matrices to reflect the image along the x-axis and y-axis.Display the reflected images along the x-axis and y-axis using Matplotlib.
+Define reflection matrices M_x and M_y for reflection along the x-axis and y-axis, respectively.
+Perform perspective transformation using cv2.warpPerspective() with the reflection matrices to reflect the image along the x-axis and y-axis.
+Display the reflected images along the x-axis and y-axis using Matplotlib.
 <br>
 
 ### Step 6 :
-Define an angle of rotation in radians (here, 10 degrees).Construct a rotation matrix M using the sine and cosine of the angle.Perform perspective transformation using cv2.warpPerspective() with the rotation matrix to rotate the image.Display the rotated image using Matplotlib.
+Define an angle of rotation in radians (here, 10 degrees).
+Construct a rotation matrix M using the sine and cosine of the angle.
+Perform perspective transformation using cv2.warpPerspective() with the rotation matrix to rotate the image.Display the rotated image using Matplotlib.
 <br>
 ### Step 7 :
-Define a region of interest by specifying the desired range of rows and columns to crop the image (here, from row 100 to row 300 and from column 100 to column 300).Use array slicing to extract the cropped region from the input image.Display the cropped image using Matplotlib.
+Define a region of interest by specifying the desired range of rows and columns to crop the image (here, from row 100 to row 300 and from column 100 to column 300).
+Use array slicing to extract the cropped region from the input image.Display the cropped image using Matplotlib.
 <br>
 
 
